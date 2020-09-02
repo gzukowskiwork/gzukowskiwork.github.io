@@ -1,0 +1,28 @@
+.carousel{
+    height: 50%;
+    width: 50%;
+    position: center;
+}
+.circle{
+    border-radius: 50%;
+
+}
+
+div.c-wrapper{
+    width: 50%; /* for example */
+    min-width: 400px;
+    min-height: 400px;
+    margin: auto;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+    width: 50%; /* use this, or not */
+    margin: auto;
+}
+.section .p{
+    text-align: justify;
+}
+.container{
+
+}
