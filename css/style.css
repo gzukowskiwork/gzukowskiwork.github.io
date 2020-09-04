@@ -3,10 +3,6 @@ img{
     width:100%;
 }
 
-.item{
-    padding-left:10px;
-    padding-right:10px;
-}
 .item-card{
     transition:0.5s;
     cursor:pointer;
@@ -58,4 +54,18 @@ img{
 }
 a{
     text-decoration: none;
+}
+
+body, html{
+    height: 100%;
+}
+
+.parallax{
+    background-image: url("../img/code.jpg");
+    height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

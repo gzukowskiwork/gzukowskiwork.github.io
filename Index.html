@@ -13,11 +13,11 @@
 </head>
 <body>
 
-<div class="container">
+
     <header>
 
     </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,19 +36,23 @@
             </ul>
         </div>
     </nav>
+    <div class="container">
     <article>
-        article
-        <section id="about">
-            <p>O mnie</p>
-            <p>Bacon ipsum dolor amet spare ribs drumstick porchetta, tongue frankfurter pastrami cow brisket chislic.
-                Ribeye swine shank tongue beef bresaola ball tip chuck burgdoggen kielbasa pork chop capicola turkey
-                biltong short ribs. Venison swine bresaola chislic filet mignon, pork loin pork brisket sausage beef
-                ribs sirloin boudin doner. Rump ribeye flank pork ground round corned beef jowl sirloin. Andouille
-                prosciutto swine, ground round kielbasa pork bresaola. Capicola bacon ball tip pork beef flank. Pork
-                belly tongue turducken, alcatra spare ribs burgdoggen andouille drumstick.
-            </p>
-        </section>
+
+            <section id="about" >
+                <div class="parallax"></div>
+                <p>O mnie</p>
+                <p>Bacon ipsum dolor amet spare ribs drumstick porchetta, tongue frankfurter pastrami cow brisket chislic.
+                    Ribeye swine shank tongue beef bresaola ball tip chuck burgdoggen kielbasa pork chop capicola turkey
+                    biltong short ribs. Venison swine bresaola chislic filet mignon, pork loin pork brisket sausage beef
+                    ribs sirloin boudin doner. Rump ribeye flank pork ground round corned beef jowl sirloin. Andouille
+                    prosciutto swine, ground round kielbasa pork bresaola. Capicola bacon ball tip pork beef flank. Pork
+                    belly tongue turducken, alcatra spare ribs burgdoggen andouille drumstick.
+                </p>
+            </section>
+
         <section id="technologies">
+            <div class="parallax"></div>
             <p>Technologie</p>
             <p>
                 Andouille meatloaf capicola venison turkey corned beef landjaeger buffalo ribeye doner bresaola
@@ -57,35 +61,34 @@
                 pastrami jerky landjaeger burgdoggen. Turkey pork cow drumstick fatback kevin andouille. Shankle
                 beef filet mignon, pork belly ham hock short ribs bacon flank chicken andouille.
             </p>
+            <div class="parallax"></div>
         </section>
         <section id="projects">
             Projekty
             <div class="container mt-2">
                 <div class="row justify-content-center">
-                    <div class="col-md-3 col-sm-6 item">
-                        <a href="https://github.com/gzukowskiwork/CookBookMVC" style="text-decoration: none; color:#23272b">
-                        <div class="card item-card card-block">
-                            <h4 class="item-card-title text-right"><i class="material-icons">settings</i></h4>
-                            <img src="https://c4.wallpaperflare.com/wallpaper/662/732/5/baking-book-cookbook-cooking-wallpaper-preview.jpg" alt="Photo of sunset">
-                            <h5 class="card-title  mt-3 mb-3">Cook Book</h5>
-                            <p class="card-text">This is a simple CRUD application using MVC pattern including Identity authentication</p>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 item">
-                        <div class="card item-card card-block">
-                            <h4 class="item-card-title text-right"><i class="material-icons">settings</i></h4>
-                            <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset">
-                            <h5 class="card-title  mt-3 mb-3">ProVyuh</h5>
-                            <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 item">
-                        <div class="card item-card card-block">
-                            <h4 class="item-card-title text-right"><i class="material-icons">settings</i></h4>
-                            <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset">
-                            <h5 class="card-title  mt-3 mb-3">ProVyuh</h5>
-                            <p class="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -95,6 +98,7 @@
 
         </section>
     </article>
+    </div>
     <footer>
         footer
     </footer>
