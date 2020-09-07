@@ -7,7 +7,17 @@ body, html{
     object-fit:cover;
     background-color: black;
 }
+@font-face {
+    font-family: "UbuntuMedium";
+    src: url("../font/Ubuntu-Medium.ttf");
+
+}
+@font-face {
+    font-family: "UbuntuBold";
+    src: url("../font/Ubuntu-Bold.ttf");
+}
 .linkbox{
+    font-family: UbuntuMedium, serif;
     display: grid;
     width: 600px;
     height: 371px;
@@ -20,8 +30,8 @@ body, html{
     transform: translate(-50%, -50%);
     grid-template-rows: 171px 100px 100px;
     text-align: center;
-    color:black;
-    background-color: white;
+    color:white;
+    background-color: #343a40;
     opacity: 70%
 
 }
