@@ -20,7 +20,10 @@ body, html{
     transform: translate(-50%, -50%);
     grid-template-rows: 171px 100px 100px;
     text-align: center;
-    color:white;
+    color:black;
+    background-color: white;
+    opacity: 70%
+
 }
 
 .links{
@@ -44,12 +47,17 @@ body, html{
     grid-column-end: 3;
     grid-row-end: 2;
 }
+i{
+    font-size: 70px;
+}
+
 .facebook{
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
 }
+
 .github{
     grid-column-start: 2;
     grid-column-end: 2;
