@@ -16,6 +16,13 @@ body, html{
     font-family: "UbuntuBold";
     src: url("../font/Ubuntu-Bold.ttf");
 }
+a{
+    color: white;
+}
+a :hover{
+
+    color: white;
+}
 .linkbox{
     font-family: UbuntuMedium, serif;
     display: grid;
@@ -33,7 +40,6 @@ body, html{
     color:white;
     background-color: #343a40;
     opacity: 70%
-
 }
 #name{
     grid-column-start: 1;
@@ -62,13 +68,13 @@ i{
     font-size: 70px;
 }
 
-.facebook{
-    grid-column-start: 1;
-    grid-column-end: 1;
+
+.about{
+    grid-column-start: 3;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
 }
-
 .github{
     grid-column-start: 2;
     grid-column-end: 2;
@@ -76,9 +82,10 @@ i{
     grid-row-end: 1;
 
 }
+
 .linkedin{
-    grid-column-start: 3;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
 }
@@ -113,7 +120,7 @@ i{
     i{
         font-size: 65px;
     }
-    .facebook{
+    .about{
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 1;
@@ -140,7 +147,7 @@ i{
     .linkbox {width: 600px;}
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 810px) {
     body, html{
         object-fit: cover;
         width: 100%;
@@ -148,8 +155,8 @@ i{
 
     }
     .linkbox{
-        margin-top: 100px;
-        top: 265px;
+        margin-top: 120px;
+        top: 282px;
     }
 
 }
