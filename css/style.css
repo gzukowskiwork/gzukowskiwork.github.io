@@ -120,7 +120,7 @@ i{
     i{
         font-size: 65px;
     }
-    .about{
+    .linkedin{
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 1;
@@ -134,7 +134,7 @@ i{
         grid-row-end: 2;
 
     }
-    .linkedin{
+    .about{
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 3;
@@ -152,6 +152,7 @@ i{
         object-fit: cover;
         width: 100%;
         height: 600px;
+        background-position-y: -198px;
 
     }
     .linkbox{
